@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Agrinho - Tecnologia no Campo</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Projeto Agrinho 2026</h1>
+
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#dicas">Dicas</a>
+      <a href="#simulador">Simulador</a>
+      <a href="#equipe">Equipe</a>
+    </nav>
+  </header>
+
+  <!-- 🌾 BANNER COM SUA IMAGEM -->
+  <section class="banner">
+
+    <img src="img/campo.jpg" alt="Campo agrícola com trator" class="banner-img">
+
+    <div class="banner-texto">
+      <h2>Tecnologia e Sustentabilidade no Campo 🌱</h2>
+      <p>Produzir mais com menos impacto ambiental</p>
+    </div>
+
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <h2>📘 Sobre o Projeto</h2>
+
+    <p>
+      O Projeto Agrinho mostra como a tecnologia pode transformar a agricultura moderna,
+      aumentando a produção e reduzindo o impacto ambiental.
+    </p>
+
+    <p>
+      No campo atual, o uso de máquinas inteligentes, sensores e técnicas sustentáveis ajuda a economizar recursos naturais.
+    </p>
+
+    <p>
+      Um exemplo importante é o controle biológico, onde insetos como a joaninha ajudam a combater pragas como pulgões.
+    </p>
+  </section>
+
+  <!-- DICAS -->
+  <section id="dicas">
+    <h2>🌿 Ações Sustentáveis no Campo</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🐞 Controle Biológico</h3>
+        <p>Insetos como joaninhas ajudam a eliminar pragas sem agrotóxicos.</p>
+      </div>
+
+      <div class="card">
+        <h3>💧 Economia de Água</h3>
+        <p>Irrigação inteligente evita desperdício e melhora a produtividade.</p>
+      </div>
+
+      <div class="card">
+        <h3>🚜 Tecnologia Agrícola</h3>
+        <p>Máquinas modernas aumentam a produção com menos impacto ambiental.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SIMULADOR -->
+  <section id="simulador">
+    <h2>📊 Simulador de Impacto Ambiental</h2>
+
+    <input type="number" id="combustivel" placeholder="Litros de combustível">
+    <input type="number" id="fertilizante" placeholder="Kg de fertilizante">
+
+    <button onclick="calcularImpacto()">Calcular Impacto</button>
+
+    <div id="resultado"></div>
+    <div id="grafico"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="equipe">
+    <p><strong>Equipe:</strong> Seu Nome Aqui</p>
+    <p><strong>Turma:</strong> 8º Ano A</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
